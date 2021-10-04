@@ -1,5 +1,7 @@
 node{
     stage("one"){
         bat "dir"
+    }stage("two"){
+        print "hi from stage two"
     }
 }
